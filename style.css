@@ -1,0 +1,125 @@
+body {
+    background: linear-gradient(to right, #ef473a, #cb2d3e);
+    width: 100%;
+}
+.container {
+    width: 50%;
+    height: 60%;
+    background: rgba(255, 0, 0, 0.342);
+    position: fixed;
+    top: 20%;
+    right: 25%;
+    border-radius: 20px;
+}
+.text1 {
+    font-family: 'Lobster', cursive; 
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 10%;
+}
+.text2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 47px;
+    text-align: center;
+    margin-top: 20%;
+}
+@media all and (max-width:420px) {
+    .text2 {
+        margin-top: 50px;
+        padding: -19px;
+        line-height: 39px;
+    }
+    .container {
+        width: 80%;
+        transform: translateX(14%);
+    }
+    .text1 {
+        letter-spacing: 4px;
+        text-align: center;
+        letter-spacing: -1px;
+        margin-top: 15px;
+    }
+    h2 {
+        font-size: 30px;
+        position: relative;
+        bottom: -15px;
+        font-weight: 900;
+        font-family: 'Lobster', cursive;
+
+    }
+}
+.hearts img {
+    width: 50px;
+    animation: hearts 9s linear infinite;
+}
+.hearts {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -95px;
+}
+@keyframes hearts {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-90vh);
+        opacity: 0;
+    }
+}  
+.hearts img:nth-child(1) {
+    animation-delay: 2s;
+}
+.hearts img:nth-child(2) {
+    animation-delay: 2.5s;
+}
+.hearts img:nth-child(3) {
+    animation-delay: 3.5s;
+}
+.hearts img:nth-child(4) {
+    animation-delay: 4.5s;
+}
+.hearts img:nth-child(5) {
+    animation-delay: 1s;
+}
+.hearts img:nth-child(6) {
+    animation-delay: 4.5s;
+}
+.hearts img:nth-child(7) {
+    animation-delay: 2s;
+}
+.hearts img:nth-child(8) {
+    animation-delay: 3s;
+}
+.hearts img:nth-child(9) {
+    animation-delay: 2s;
+}
+.hearts img:nth-child(10) {
+    animation-delay: 1s;
+}
+.hearts img:nth-child(11) {
+    animation-delay: 2s;
+}
+.hearts img:nth-child(12) {
+    animation-delay: 1s;
+}
+.hearts img:nth-child(13) {
+    animation-delay: 4.5s;
+}
+.hearts img:nth-child(14) {
+    animation-delay: 4s;
+}
+.hearts img:nth-child(15) {
+    animation-delay: 2.5s;
+}
