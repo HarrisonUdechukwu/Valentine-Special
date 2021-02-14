@@ -1,9 +1,11 @@
 body {
     background: linear-gradient(to right, #ef473a, #cb2d3e);
-    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 .container {
-    width: 80%;
+    width: 50%;
     height: 60%;
     background: rgba(255, 0, 0, 0.342);
     position: fixed;
@@ -29,14 +31,16 @@ body {
     .text2 {
         margin-top: 50px;
         padding: -19px;
-        line-height: 39px;
+        line-height: 27px;
     }
     .container {
-        width: 80%;
-        transform: translateX(14%);
+        width: 70%;
+        transform: translateX(2%);
+        position: absolute;
+        top: 9.5%;
     }
     .text1 {
-        letter-spacing: 4px;
+        letter-spacing: 2px;
         text-align: center;
         letter-spacing: -1px;
         margin-top: 15px;
